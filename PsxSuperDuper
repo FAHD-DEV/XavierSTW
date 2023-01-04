@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "[🎄 New Year!] Pet Simulator X! 🐾 - PSX PRIVATE V4.2", HidePremium = false, IntroText = "Dupe By Sadmc and Owned By Xavier", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "[🎄 New Year!] Pet Simulator X! 🐾 - PSX PRIVATE V4.2", HidePremium = false, IntroText = "Dupe By Sadmc", SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
         Name = "Info",
@@ -11,7 +11,7 @@ local Tab = Window:MakeTab({
         Name = "Credits"
     })
     
-    Tab:AddParagraph("Made By Sadmc and Owned By Xavier","Sadmc#6152 and Xavier#0762")
+    Tab:AddParagraph("Made By Sadmc","Sadmc#6152")
     
    local Section = Tab:AddSection({
         Name = "Status"   
